@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JANE'S PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="kc.js"></script>
+    <script src="jj.js"></script>  
+    
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="pics/logo.png" class="logo">
+            <ul>
+                <li><a href="#HOME"target="_self">HOME</a></li>
+                <li><a href="#ABOUT"target="_self">ABOUT</a></li>
+                <li><a href="#SERVICES"target="_self">SERVICES</a></li>
+                <li><a href="#CONTACT"target="_self">CONTACT</a></li>
+              
+            </ul>
+            <button onclick="myFunction()"> 
+            </button>
+               
+        </nav>
+        <section id="HOME">
+        <div class="info">
+            <h1>I am <span> Jane</span> Gathu</h1>
+            <p>This is my official portfolio web
+                 page to <br> display what i do and all my
+                  work related <br> to web evelopment and user 
+                  interface deign.</p>
+                <a href="http://"action="mycv.php">Download CV </a>
+
+                </a>
+        </div>
+    <div class="img-box">
+        <img src="pics/seat.png" class="girl-img">
+     
+    </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+    </div>
+    </div>
+</section>
+<section id="SERVICES">
+    <div class="container-2">
+        <div class="orange"> </div>
+            <div class="green"></div>
+                <div class="grey"></div>
+                
+            
+        </div>
+
+</section>
+
+
+    <section id="CONTACT">
+        <div class="content">
+        <h2>contact me</h2>
+        <p>you can find me here .i am at your service at any given time.
+            feel free to ask any questions concerning my services</p>
+        </div>
+  
+    <div class="container">
+        <div class="contactinfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-home"></i></div>
+                <div class="text">
+                <h3>Address</h3>
+<p>654 sugar street</p>
+            </div>
+        </div>
+           
+       <div class="box">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="text">
+        <h3>phone</h3>
+<p>+254701708344</p>
+    </div>
+</div>
+
+<div class="box">
+    <div class="icon"><i class="fa-solid fa-envelope"> </i></div>
+    <div class="text">
+    <h3>E-mail</h3>
+<p><a href="https://www.gmail.com">janenjerigathu18@gmail.com</a></p>
+</div>
+</div>
+
+</div>
+<div class="contactform">
+    <form onsubmit="sendEmail();  return false;">
+        <h2>send message</h2>
+        <div class="inputbox">
+            <input type="text"id="name" name="" placeholder="Name" required="required">
+           
+        </div>
+        <div class="inputbox">
+            <input type="text" id="email"name=""  placeholder="Email" required="required">
+          
+        </div>
+        <div class="inputbox">
+            <input type="text" id="phone"name=""  placeholder="phone no" required="required">
+          
+        </div>
+        <div class="inputbox">
+            <textarea placeholder="WRITE MESSAGE" required="required"></textarea>
+
+        </div>
+        <div class="input">
+            <button type="submit" >send </button>
+        </div>
+    </form>
+
+</div>
+    </div>
+
+
+    
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js">
+        
+    </script>
+ 
+</body>
+</html>
+
+
